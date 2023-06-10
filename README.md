@@ -8,7 +8,7 @@ Sadly, Vencord users can't configure DarkVibez as Vencord gets the theme directl
 
 # About Discord Web-App
 DarkVibez v2 does not support the Web-App. If you want to use DarkVibez v2, consider getting the Desktop-App and use it with BetterDiscord or Vencord.
-But, DarkVibez v1 works with the Web-App. Get it here: https://github.com/ProjectShadowSRC/DarkVibez
+DarkVibez v1 works with the Web-App. Get it here: https://github.com/ProjectShadowSRC/DarkVibez
 
 # About Light mode
 DarkVibez v2 is not meant to be used with Light mode! Doing so WILL cause visual problems.
