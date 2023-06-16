@@ -1,0 +1,31 @@
+"BasicBG-Light" by ProjectShadow (v1.0)
+For DarkVibez with CFGID 1.0
+
+
+/* Config ("BasicBG Light Beta" by ProjectShadow | CFGID: 1.0) */
+  --bg-main-1: #000000; 
+  --bg-main-2: linear-gradient(to top right, #111111, #303030); 
+  --bg-main-3: #ffffff34; 
+  --bg-ucount-1: #4d4d4d; 
+  --bg-ucount-2: #3b3b3b; 
+  --bg-card: #ffffff21; 
+  --bg-card-2: #0000001c; 
+  --topleft-border-radius: 12px !important; 
+  --attachment-bg-code: #000000; 
+  --attachment-radius: 12px; 
+  --color-scheme: #ffffff69; 
+  --font-primary: 'Figtree', sans-serif !important; 
+  --btn-hovered: #ffffff23; 
+  --btn-selected: #ffffff38; 
+  --defaultProfileBG1: #242424; 
+  --defaultProfileBG2: #000000; 
+  --number-badge-bg: linear-gradient(to top right, #3b3b3b, #777777); 
+  --dividercolor: #ffffff50;
+
+  --settings-card-bg: #00000085;
+  --settings-card-border: #ffffff20;
+
+  --wallpaper: url("https://cdn.discordapp.com/attachments/877247075375521913/1117113003154870356/DarkVibezBG-Dark.png");
+  --wallpaper-bg: #ffffff10;
+  --wallpaper-bg-2: transparent;
+  --bottomleft-border-radius: 0px !important;

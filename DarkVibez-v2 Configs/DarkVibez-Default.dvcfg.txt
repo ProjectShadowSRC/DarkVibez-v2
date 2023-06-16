@@ -1,0 +1,24 @@
+The default DarkVibez v2 config
+For DarkVibez with CFGID 1.0
+
+
+/* Config (Default | CFGID: 1.0) */
+  --bg-main-1: #000000; 
+  --bg-main-2: linear-gradient(to top right, #111111, #303030); 
+  --bg-main-3: #ffffff21; 
+  --bg-ucount-1: #363636; 
+  --bg-ucount-2: #252525; 
+  --bg-card: #ffffff21; 
+  --bg-card-2: #00000036; 
+  --topleft-border-radius: 12px !important; 
+  --color-scheme: #5865f2; 
+  --font-primary: 'Figtree', sans-serif !important; 
+  --btn-hovered: #ffffff23; 
+  --btn-selected: #ffffff28; 
+  --defaultProfileBG1: #272727; 
+  --defaultProfileBG2: #131313; 
+  --number-badge-bg: linear-gradient(to top right, #5865f2, #454fbf); 
+  --dividercolor: #ffffff18;
+
+  --settings-card-bg: #1b1b1b;
+  --settings-card-border: #242424;
