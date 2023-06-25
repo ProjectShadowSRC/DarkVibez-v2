@@ -2,7 +2,7 @@
  * @name DarkVibez
  * @author ProjectShadow
  * @authorLink https://github.com/ProjectShadowSRC/
- * @version 2.0
+ * @version 2.1
  * @description A dark, modern and OLED optimized theme. Customizable with Presets or your own configs!
  * @source https://github.com/ProjectShadowSRC/DarkVibez-v2
  * @website https://twitter.com/ProjectShadowDE
@@ -39,7 +39,7 @@
   --background-primary: var(--btn-selected);
   --background-secondary: var(--bg-main-1);
   --elevation-low: none;
-  --buildinfo: "ProjectShadow/DarkVibez 2.0 | CFGID: 1.0";
+  --buildinfo: "ProjectShadow/DarkVibez 2.1 | CFGID: 1.0";
 }
 
 /* Don't touch! These are fixes for some buggy objects */
@@ -3853,7 +3853,53 @@ canvas.decorationsOverviewRuler {
   border-radius: 0 !important;
 }
 
+.scroller-1xACMA::-webkit-scrollbar-thumb {
+  background-color: #ffffff10 !important;
+}
+
+.linkCalloutContainer-1CixBe {
+  border: 1px solid #ffffff20 !important;
+  border-radius: 12px !important;
+}
+
+.checkbox-1LuCGM {
+  border: 1px solid #ffffff20 !important;
+  border-radius: 6px !important;
+}
+
+.recommendedServerCard-3f-92z {
+  border-radius: 12px !important;
+  background: #202020;
+}
+
+.gradient-ICI49D, .wrapper-3ViBpj {
+  border-radius: 20px !important;
+}
+
+.wrapper-32LHXp {
+  margin-top: 15px;
+}
+
+.wrapper-2r1p30 {
+  background: #ffffff20;
+  border: 1px solid #ffffff25;
+  border-radius: 20px;
+}
+
 /*Buttons*/
+
+.inviteRow-2Vjla6 {
+  border-radius: 12px !important;
+  margin-right: 10px !important;
+}
+
+.inviteRow-2Vjla6:hover {
+  background: #ffffff10 !important;
+}
+
+.lookOutlined-3RTC7c.colorGreen-jIPCAS {
+  border-radius: 9px !important;
+}
 
 .lookInverted-2GrLaB.colorBrand-2M3O3N {
   color: #000;
@@ -4902,4 +4948,231 @@ canvas.decorationsOverviewRuler {
 
 .verifyConnectedAccount-3EQU9K {
   background: var(--bg-main-2) !important;
+}
+
+.wrapper-28jGDw {
+  background: var(--bg-main-1) !important;
+}
+
+.contentWrapper-3RqEiS {
+  --border-radius: var(--topleft-border-radius);
+  background: var(--bg-main-2) !important;
+  border-top-left-radius: var(--border-radius) !important;
+  border-bottom-left-radius: var(--border-radius) !important;
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+}
+
+.wrapper-21s-vu {
+  background: #ffffff20 !important;
+  border-radius: 16px !important;
+}
+
+.filledBrand-3fai8P {
+  border-radius: 12px !important;
+  background: #ffffff20 !important;
+  transition: ease-in-out 0.1s !important;
+}
+
+.filledBrand-3fai8P:active {
+  transform: scale(0.9) !important;
+}
+
+.navItem-3-6DtI, .navLink-3G9s0N {
+  border-radius: 12px !important;
+  margin-top: 5px !important;
+}
+
+.navItem-3-6DtI:hover, .navLink-3G9s0N:hover {
+  background: var(--btn-hovered) !important;
+}
+
+.activeNavItemPrimary-eyFkcI, .activeLink-2Ai-iE {
+  background: var(--btn-selected) !important;
+}
+
+.css-6airpl-control {
+  background: #ffffff15 !important;
+  border: none !important;
+  border-radius: 12px !important;
+}
+
+.cardOptionTileSelected-wkswQf {
+  border-radius: 9px !important;
+  background: #ffffff20 !important;
+}
+
+.cardOptionTile-30nXFk {
+  border-radius: 9px !important;
+}
+
+.cardOptionTile-30nXFk:hover {
+  border-radius: 9px !important;
+  background: #ffffff10 !important;
+}
+
+.cardLink-H6gvNe {
+  border-radius: 12px !important;
+  background: #ffffff10;
+}
+
+.cardLink-H6gvNe:hover {
+  border-radius: 12px !important;
+  background: #ffffff15 !important;
+  transform: scale(1.075) !important;
+}
+
+.scroller-31PUfV::-webkit-scrollbar-thumb {
+  background-color: #ffffff15 !important;
+}
+
+.colorLight-1o6rnK {
+  border-radius: 16px !important;
+  background-color: #ffffff10 !important;
+  border: none !important;
+}
+
+.scroller-31PUfV .input-2g-os5 {
+  border: 1px solid #ffffff15 !important;
+}
+
+.inputWrapper-3a4ywb {
+  background: none !important;
+  border: none !important;
+}
+
+.avatarUploaderInner-yEhTv5 {
+  background-color: #ffffff00 !important;
+}
+
+.tabWrapper-3Vbozi, .headerWrap-27-bHa {
+  background: none !important;
+  border: none !important;
+}
+
+.userPopout-3yP9Rm {
+  border-radius: 16px !important;
+  background: linear-gradient(to bottom, var(--defaultProfileBG1), var(--defaultProfileBG2)) !important;
+}
+
+.filledPrimary-3zeYrF {
+  border-radius: 9px !important;
+  background: #ffffff15;
+  transition: ease-in-out 0.1s !important;
+}
+
+.filledPrimary-3zeYrF:hover {
+  background: #ffffff20;
+}
+
+.filledPrimary-3zeYrF:active {
+  transform: scale(0.9) !important;
+}
+
+.avatarWrapper-3ECJr8, .userInfo-2zbn-a, .content-1r_a9C {
+  background: none !important;
+}
+
+.avatarWrapper-3ECJr8 {
+  border-color: #252525 !important;
+}
+
+.username-Zgv1GP:before {
+  content: '@';
+}
+
+.username-Zgv1GP {
+  font-weight: 500;
+  color: #ffffff75;
+}
+
+.modalContent-31OOYM {
+  border-radius: 20px !important;
+  background: linear-gradient(to top right, #1a1a1a, #2e2e2e) !important;
+  box-shadow: none !important;
+  border: 1px solid #363636 !important;
+}
+
+.modalFooter-3193QM {
+  background: none !important;
+  border-top: 1px solid #ffffff10 !important;
+}
+
+.box-BHImcZ {
+  border-radius: 7px !important;
+}
+
+.checkbox-f1HnKB {
+  border-color: #ffffff3d !important;
+}
+
+.modalContent-31OOYM .input-2g-os5 {
+  border: 1px solid #ffffff15 !important;
+}
+
+.alert-3D_NDz {
+  border-radius: 12px !important;
+}
+
+.container-1DJPVG {
+  background: linear-gradient(to bottom right, #353535 5%, #1a1a1a 100%) !important;
+  border-radius: 16px !important;
+  margin-top: 5px;
+}
+
+.filledGreen-3TjJah {
+  background: #ffffff20;
+  border-radius: 9px !important;
+  transition: ease-in-out 0.1s !important;
+}
+
+.filledGreen-3TjJah:hover {
+  background: #ffffff25;
+  transition: ease-in-out 0.1s !important;
+}
+
+.filledGreen-3TjJah:active {
+  background: #ffffff25;
+  transition: ease-in-out 0.1s !important;
+  transform: scale(0.9) !important;
+}
+
+.menu-21Fl0o {
+  border-radius: 12px !important;
+  background: #404040 !important;
+  border: 1px solid #505050 !important;
+}
+
+.warning-3hnAHp, .error-1PtOXU, .info-2ohddr {
+  border-radius: 9px !important;
+}
+
+.contentWrapper-1Cwe5m code {
+  border-radius: 15px !important;
+  background: #ffffff15 !important;
+  border: 1px solid #ffffff25 !important;
+}
+
+.markdown-19oyJN img {
+  border-radius: 15px !important;
+}
+
+.h6-3NIpOq {
+  background: none !important;
+}
+
+.contentWrapper-1Cwe5m table thead {
+  background: none !important;
+}
+
+.markdown-19oyJN th {
+  background: #ffffff15 !important;
+}
+
+.contentWrapper-1Cwe5m table tbody tr {
+  background: #ffffff08 !important;
+}
+
+.contentWrapper-1Cwe5m table tbody tr:nth-child(2n) {
+  background: #ffffff03 !important;
 }
