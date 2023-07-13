@@ -2,7 +2,7 @@
  * @name DarkVibez
  * @author ProjectShadow
  * @authorLink https://github.com/ProjectShadowSRC/
- * @version 2.1.1
+ * @version 2.1.2
  * @description A dark, modern and OLED optimized theme. Customizable with Presets or your own configs!
  * @source https://github.com/ProjectShadowSRC/DarkVibez-v2
  * @website https://twitter.com/ProjectShadowDE
@@ -11,7 +11,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root {
-/* Config (Default | CFGID: 1.0) */
+/* Config (Default | CFGID: 1.0.1) */
 --bg-main-1: #000000; 
 --bg-main-2: linear-gradient(to top right, #111111, #303030); 
 --bg-main-3: #ffffff21; 
@@ -39,7 +39,7 @@
   --background-primary: var(--btn-selected);
   --background-secondary: var(--bg-main-1);
   --elevation-low: none;
-  --buildinfo: "ProjectShadow/DarkVibez 2.1.1 | CFGID: 1.0";
+  --buildinfo: "ProjectShadow/DarkVibez 2.1.2 | CFGID: 1.0.1";
 }
 
 /* Don't touch! These are fixes for some buggy objects */
@@ -3338,8 +3338,7 @@
 }
 
 .reaction-3vwAF2 {
-  background: #202020 !important;
-  border: 1px solid #353535 !important;
+  background: #202020;
 }
 
 strong {
@@ -3908,14 +3907,104 @@ canvas.decorationsOverviewRuler {
 }
 
 .waitlist-3g7w1i {
-  border-radius: 12px;
+  border-radius: 12px !important;
 }
 
 .emojisContainer-2aGjbS {
   background: transparent !important;
 }
 
+.content-1OG56Q::-webkit-scrollbar-thumb {
+  background-color: #ffffff15 !important;
+}
+
+.container-3GP6AV {
+  background: none !important;
+}
+
+.header-3cSJjT {
+  border-radius: 19.5px 19.5px 0 0 !important;
+  background: #ffffff10 !important;
+}
+
+.container-2rzKKA {
+  border-radius: 12px !important;
+  background: #ffffff08;
+  border: 1px solid #ffffff10;
+  transition: ease-in-out 0.1s;
+}
+
+.container-2rzKKA:hover {
+  background: #ffffff10;
+  border: 1px solid #ffffff12;
+  transition: ease-in-out 0.1s;
+}
+
+.containerSidenav-3qiKqP {
+  background: var(--wallpaper-bg, var(--bg-main-2)) !important;
+  border-top-left-radius: var(--topleft-border-radius) !important;
+  border-bottom-left-radius: var(--bottomleft-border-radius) !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  color-scheme: dark;
+}
+
+.containerSidenav-3qiKqP::-webkit-scrollbar-track {
+  background-color: none !important;
+}
+
+.containerSidenav-3qiKqP::-webkit-scrollbar-thumb {
+  background-color: #ffffff20 !important;
+}
+
+.container-2WMFjc, .container-1iKw09, .box-3QCU9H {
+  background: #ffffff20 !important;
+  border-radius: 20px !important;
+}
+
+.container-jV-A82 {
+  background: #ffffff20 !important;
+  border-radius: 15px !important;
+}
+
+.circle-1ip_Nd, .iconContainer-3cz2oI {
+  background: #ffffff20 !important;
+}
+
+.container-2WMFjc .lookFilled-1H2Jvj.colorBrand-2M3O3N {
+  background: #ffffff20;
+}
+
+.container-2WMFjc .lookFilled-1H2Jvj.colorBrand-2M3O3N:hover {
+  background: #ffffff35;
+}
+
+.row-XYkFDK {
+  background: #ffffff20 !important;
+  border-radius: 12px !important;
+}
+
+.stepNumber-1OYCPJ {
+  background: none !important;
+}
+
+.clickable-2V8YKY[aria-selected=true]>.base-2v-uc0 {
+  background: #ffffff10 !important;
+}
+
 /*Buttons*/
+
+.link-1_kTxV {
+  border-radius: 9px !important;
+}
+
+.link-1_kTxV:hover {
+  background: var(--btn-hovered) !important;
+}
+
+.modeSelected-3DmyhH .link-1_kTxV {
+  background: var(--btn-selected) !important;
+}
 
 .inviteRow-2Vjla6 {
   border-radius: 12px !important;
