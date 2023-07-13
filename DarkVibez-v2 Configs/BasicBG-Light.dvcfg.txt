@@ -1,8 +1,8 @@
-"BasicBG-Light" by ProjectShadow (v1.0)
-For DarkVibez with CFGID 1.0
+"BasicBG-Light" by ProjectShadow (v1.0.1)
+For DarkVibez with CFGID 1.0.1
 
 
-/* Config ("BasicBG Light Beta" by ProjectShadow | CFGID: 1.0) */
+/* Config ("BasicBG-Light" by ProjectShadow | CFGID: 1.0.1) */
   --bg-main-1: #000000; 
   --bg-main-2: linear-gradient(to top right, #111111, #303030); 
   --bg-main-3: #ffffff34; 
