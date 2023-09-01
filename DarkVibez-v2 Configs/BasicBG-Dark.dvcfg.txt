@@ -1,31 +1,31 @@
-"BasicBG-Dark" by ProjectShadow (v1.0.1)
-For DarkVibez with CFGID 1.0.1
+"BasicBG-Dark" by ProjectShadow (v1.1)
+For DarkVibez with CFGID 1.1
 
 
-/* Config ("BasicBG-Dark" by ProjectShadow | CFGID: 1.0.1) */
-  --bg-main-1: #000000; 
-  --bg-main-2: linear-gradient(to top right, #111111, #303030); 
-  --bg-main-3: #00000054; 
-  --bg-ucount-1: #4d4d4d; 
-  --bg-ucount-2: #3b3b3b; 
-  --bg-card: #0000004d; 
-  --bg-card-2: #00000036; 
-  --topleft-border-radius: 12px !important; 
-  --attachment-bg-code: #000000; 
-  --attachment-radius: 12px; 
-  --color-scheme: #00000052; 
-  --font-primary: 'Figtree', sans-serif !important; 
-  --btn-hovered: #00000023; 
-  --btn-selected: #00000038; 
-  --defaultProfileBG1: #7a7a7a; 
-  --defaultProfileBG2: #272727; 
-  --number-badge-bg: linear-gradient(to top right, #8a8a8a, #ffffff); 
-  --dividercolor: #00000027;
+/* Config ("BasicBG-Dark" by ProjectShadow | CFGID: 1.1) */
+--bg-main-1: #000000; 
+--bg-main-2: linear-gradient(to top right, #111111, #303030); 
+--bg-main-3: #00000054; 
+--bg-ucount-1: #4d4d4d; 
+--bg-ucount-2: #3b3b3b; 
+--bg-card: #0000004d; 
+--bg-card-2: #00000036; 
+--bg-card-border: #0000004d; 
+--topleft-border-radius: 12px !important; 
+--attachment-bg-code: #000000; 
+--attachment-radius: 12px; 
+--color-scheme: #00000052; 
+--font-primary: 'Figtree', sans-serif !important; 
+--btn-hovered: #00000023; 
+--btn-selected: #00000038; 
+--defaultProfileBG1: #7a7a7a; 
+--defaultProfileBG2: #272727; 
+--number-badge-bg: linear-gradient(to top right, #8a8a8a, #ffffff); 
+--dividercolor: #00000027;
+--settings-card-bg: #00000065;
+--settings-card-border: #00000049;
 
-  --settings-card-bg: #00000065;
-  --settings-card-border: #00000049;
-
-  --wallpaper: url("https://cdn.discordapp.com/attachments/877247075375521913/1117113003528179722/DarkVibezBG-Light.png");
-  --wallpaper-bg: #0000003a;
-  --wallpaper-bg-2: transparent;
-  --bottomleft-border-radius: 0px !important;
+--wallpaper: url("https://cdn.discordapp.com/attachments/877247075375521913/1117113003528179722/DarkVibezBG-Light.png");
+--wallpaper-bg: #0000003a;
+--wallpaper-bg-2: transparent;
+--bottomleft-border-radius: 0px !important;
