@@ -3,9 +3,6 @@ A dark, modern and OLED optimized theme for BetterDiscord and Vencord. Simply ad
 
 ![dv-small](https://user-images.githubusercontent.com/84387545/186991372-f55b08da-2293-4e84-9881-6c3c50b5a2af.png)
 
-# For Vencord users
-Sadly, Vencord users can't configure DarkVibez as Vencord gets the theme directly from GitHub. If you want to configure DarkVibez, think about switching to BetterDiscord. Alternatively, you can paste DarkVibez into QuickCSS.
-
 # About Discord Web-App
 DarkVibez v2 does not support the Web-App. If you want to use DarkVibez v2, consider getting the Desktop-App and use it with BetterDiscord or Vencord.
 DarkVibez v1 works with the Web-App. Get it here: https://github.com/ProjectShadowSRC/DarkVibez
