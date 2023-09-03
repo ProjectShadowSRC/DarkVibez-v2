@@ -2,7 +2,7 @@
  * @name DarkVibez
  * @author ProjectShadow
  * @authorLink https://github.com/ProjectShadowSRC/
- * @version 2.2
+ * @version 2.2.1
  * @description A dark, modern and OLED optimized theme. Customizable with Presets or your own configs!
  * @source https://github.com/ProjectShadowSRC/DarkVibez-v2
  * @website https://twitter.com/ProjectShadowDE
@@ -39,7 +39,7 @@
   --background-primary: var(--btn-selected);
   --background-secondary: var(--bg-main-1);
   --elevation-low: none;
-  --buildinfo: "ProjectShadow/DarkVibez 2.2 | CFGID: 1.1";
+  --buildinfo: "ProjectShadow/DarkVibez 2.2.1 | CFGID: 1.1";
 }
 
 /* Don't touch! These are fixes for some buggy objects */
@@ -1884,7 +1884,7 @@
 }
 
 .emojiSection-3QtaWO {
-  background: linear-gradient(to bottom right, #8447c5c2, #aa5c8cc2);
+  background: linear-gradient(to bottom right, #8447c5, #aa5c8c);
   border-radius: 12px;
 }
 
@@ -1920,7 +1920,7 @@
 }
 
 .guildSection-2Zyzy8 {
-  background: linear-gradient(to bottom right, #474747c2, #979797c2);
+  background: linear-gradient(to bottom right, #333333, #666666);
   border-radius: 12px;
   margin-top: 5px;
 }
@@ -4568,6 +4568,28 @@ canvas.decorationsOverviewRuler {
 .emojiAliasInput-3ZhdKx {
   background: #ffffff20 !important;
   border-radius: 7px !important;
+}
+
+.pauseContainer-36E8UF {
+  border-radius: 12px !important;
+  border: none !important;
+  background: #ffffff10 !important;
+}
+
+.banner-3Uu4yV {
+  border-radius: 14px !important;
+}
+
+.headerLabel-1g790w {
+  text-transform: none !important;
+  font-size: 110% !important;
+  overflow: visible !important;
+}
+
+.directionRow-2Iu2A9 .input-3O04eu {
+  background: #ffffff20 !important;
+  border: 1px solid #ffffff25 !important;
+  border-radius: 12px !important;
 }
 
 /*Buttons*/
