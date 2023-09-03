@@ -1,0 +1,27 @@
+"PurpleMidnight" by ProjectShadow (v1.0)
+For DarkVibez with CFGID 1.1
+
+
+/* Config ("PurpleMidnight" by ProjectShadow | CFGID: 1.1) */
+--bg-main-1: linear-gradient(to top right, #1f0033, #000000); 
+--bg-main-2: linear-gradient(to top right, #1f0033, #000000); 
+--bg-main-3: #3c0e63; 
+--bg-ucount-1: #4a0075; 
+--bg-ucount-2: #2d004b; 
+--bg-card: #410961; 
+--bg-card-2: #00000036; 
+--bg-card-border: #ffffff28; 
+--topleft-border-radius: 12px !important; 
+--color-scheme: #670bbd; 
+--font-primary: 'Figtree', sans-serif !important; 
+--btn-hovered: #25003d; 
+--btn-selected: #39005f; 
+--defaultProfileBG1: #31005e; 
+--defaultProfileBG2: #24001c; 
+--number-badge-bg: linear-gradient(to top right, #585bf2, #bf4545); 
+--dividercolor: #ffffff18;
+--settings-card-bg: #1b1b1b;
+--settings-card-border: #242424;
+
+--wallpaper-bg: #ffffff10;
+--wallpaper-bg-2: transparent;
