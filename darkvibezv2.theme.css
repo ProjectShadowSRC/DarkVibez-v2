@@ -2,7 +2,7 @@
  * @name DarkVibez
  * @author Vanity
  * @authorLink https://x.com/VanitySoftware
- * @version 2.2.2
+ * @version 2.2.3
  * @description A dark, modern and OLED optimized theme. Customizable with Presets or your own configs!
  * @source https://github.com/VanitySoftware/DarkVibez-v2
  * @website https://github.com/VanitySoftware
@@ -39,7 +39,7 @@
   --background-primary: var(--btn-selected);
   --background-secondary: var(--bg-main-1);
   --elevation-low: none;
-  --buildinfo: "VanitySoftware/DarkVibez 2.2.2 | CFGID: 1.1";
+  --buildinfo: "VanitySoftware/DarkVibez 2.2.3 | CFGID: 1.1";
 }
 
 /* Don't touch! These are fixes for some buggy objects */
@@ -4595,6 +4595,11 @@ canvas.decorationsOverviewRuler {
 .h4-6SAiIK {
   text-transform: none !important;
   font-size: 105% !important;
+}
+
+.container-20TyK0 {
+  background: linear-gradient(to top right, #151515, #303030) !important;
+  border-radius: 12px !important;
 }
 
 /*Buttons*/
