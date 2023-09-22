@@ -2,7 +2,7 @@
  * @name DarkVibez
  * @author Vanity
  * @authorLink https://x.com/VanitySoftware
- * @version 2.2.3
+ * @version 2.3-rc01
  * @description A dark, modern and OLED optimized theme. Customizable with Presets or your own configs!
  * @source https://github.com/VanitySoftware/DarkVibez-v2
  * @website https://github.com/VanitySoftware
@@ -11,7 +11,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root {
-/* Config (Default | CFGID: 1.1) */
+/* Config (Default | CFGID: 1.2) */
 --bg-main-1: #000000; 
 --bg-main-2: linear-gradient(to top right, #111111, #303030); 
 --bg-main-3: #ffffff21; 
@@ -31,6 +31,7 @@
 --dividercolor: #ffffff18;
 --settings-card-bg: #1b1b1b;
 --settings-card-border: #242424;
+--dropdown-menu-bg: #151515;
 
 /* Don't touch */
   --font-display: var(--font-primary);
@@ -39,16 +40,13 @@
   --background-primary: var(--btn-selected);
   --background-secondary: var(--bg-main-1);
   --elevation-low: none;
-  --buildinfo: "VanitySoftware/DarkVibez 2.2.3 | CFGID: 1.1";
+  --buildinfo: "VanitySoftware/DarkVibez 2.3-rc01 | CFGID: 1.2";
 }
 
 /* Don't touch! These are fixes for some buggy objects */
 .form-3gdLxP:before{ content:unset; }
 .form-3gdLxP:before{ content:unset; }
 .children-3xh0VB:after{ content:unset; }
-.theme-light * {
-  color: #fff !important;
-}
 
 /*Call Area*/
 
@@ -449,20 +447,20 @@
   width: 35px;
   margin-right: 5px;
   margin-left: 1px;
-  border-radius: 4px;
+  border-radius: 5px;
   border-top: transparent;
   transition: ease-in-out 0.1s;
 }
 
 .winButtonClose-3Q8ZH5:hover {
-  background: #cf0000;
+  background: var(--color-scheme);
   transition: ease-in-out 0.1s;
 }
 
 .winButtonMinMax-3RsPUg {
   width: 35px;
   margin-right: 2.5px;
-  border-radius: 4px;
+  border-radius: 5px;
   transition: ease-in-out 0.1s;
 }
 
@@ -818,8 +816,9 @@
 }
 
 .header-JUTO-g {
-  background: #292929;
+  background: #ffffff10;
   border-radius: 0 0 12px 12px;
+  backdrop-filter: blur(7.5px);
 }
 
 .titleContainer-3fPic2 {
@@ -1541,10 +1540,10 @@
 }
 
 .bd-switch-body .bd-switch-slider {
-  height: 100%;
-  width: 100%;
-  margin-top: -0.6%;
-  margin-left: -3.5%;
+  height: 90%;
+  width: 92%;
+  margin-top: 4%;
+  margin-left: 1%;
 }
 
 .bd-switch-slider svg {
@@ -1552,7 +1551,7 @@
 }
 
 .bd-switch input:checked+.bd-switch-body {
-  background: #64ff50;
+  background: var(--color-scheme);
 }
 
 .membershipDialog-2wAdpQ {
@@ -2538,9 +2537,16 @@
 
 .menu-2TXYjN, .languageSelector-2e1IuO, .container-2kTWmC {
   box-shadow: none !important;
-  background: linear-gradient(to top right, #0a0a0a, #1f1f1f);
+  background: var(--dropdown-menu-bg);
+  border-radius: 15px;
+  border: 1px solid #ffffff20;
+}
+
+.accountProfilePopoutWrapper-3GskID .menu-2TXYjN {
+  box-shadow: ;
+  background: #ffffff10;
   border-radius: 12px;
-  border: 1px solid #ffffff2d;
+  border: 1px solid #ffffff20;
 }
 
 .container-3kfp0r {
@@ -3145,6 +3151,10 @@
   color: #adadad;
   font-size: 72%;
   content: var(--buildinfo);
+}
+
+.info-3pQQBb {
+  text-transform: none !important;
 }
 
 .wrapper-24fR1R {
@@ -4592,14 +4602,189 @@ canvas.decorationsOverviewRuler {
   border-radius: 12px !important;
 }
 
+.tableTitle-3slKKb {
+  text-transform: none !important;
+  font-size: 85%;
+}
+
+.titleText-35PD5k {
+  text-transform: none !important;
+  font-size: 110%;
+}
+
+.scroller-39BnzZ .h5-2feg8J {
+  text-transform: none !important;
+  font-size: 85%;
+}
+
+.previewContainer-1xQAsw .theme-light .messageContainer-3a6gLR {
+  background: var(--bg-main-2);
+}
+
+.previewContainer-1xQAsw .theme-light .messageContent-2t3eCI {
+  color: #fff !important;
+}
+
+.previewContainer-1xQAsw {
+  border: 1px solid #ffffff30 !important;
+  border-radius: 15px !important;
+}
+
+.scroller-39BnzZ .inputWrapper-2K8ds1 {
+  background: #ffffff10 !important;
+  border: 1px solid #ffffff15 !important;
+  border-radius: 12px !important;
+}
+
+.memberRow-1FhJgR {
+  border-radius: 9px !important;
+  background: #ffffff10;
+  margin-top: 7.5px;
+  transition: ease-in-out 0.1s !important;
+}
+
+.memberRow-1FhJgR:hover {
+  background: #ffffff15;
+  transform: scale(1.01);
+  transition: ease-in-out 0.1s !important;
+}
+
+.warningContainer-2TST5D {
+  border-radius: 12px !important;
+}
+
+.tabBar-3DfKkN {
+  border-bottom: transparent;
+}
+
+.titleText-3LapIU {
+  text-transform: none !important;
+  font-size: 105%;
+}
+
+.emojiColumn-2P3Fj1, .columnLabel-2VUyzo {
+  text-transform: none !important;
+  font-size: 90%;
+}
+
+.emojiUploadUploadRequirementsHeading-29M8qh {
+  text-transform: none !important;
+  font-size: 100%;
+}
+
+.children-2C96Ex .h5-2feg8J {
+  text-transform: none !important;
+  font-size: 95%;
+}
+
+.tableHeader-OoljKX {
+  text-transform: none !important;
+}
+
+.children-2C96Ex .inputWrapper-2K8ds1 {
+  background: #ffffff10 !important;
+  border: 1px solid #ffffff15 !important;
+  border-radius: 12px !important;
+}
+
+.marginBottom4-1fdMNe .inputWrapper-2K8ds1 {
+  background: #ffffff10 !important;
+  border: 1px solid #ffffff15 !important;
+  border-radius: 12px !important;
+}
+
+.body-1rejdE .inputWrapper-2K8ds1 {
+  background: #ffffff10 !important;
+  border: 1px solid #ffffff15 !important;
+  border-radius: 12px !important;
+}
+
+.title-2ftWWc {
+  text-transform: none !important;
+}
+
+.bd-sidebar-header h2 {
+  text-transform: none !important;
+  font-size: 85%;
+  color: #508dff;
+}
+
+.bd-settings-title.bd-settings-group-title {
+  text-transform: none !important;
+  font-size: 95%;
+}
+
 .h4-6SAiIK {
   text-transform: none !important;
   font-size: 105% !important;
 }
 
-.container-20TyK0 {
-  background: linear-gradient(to top right, #151515, #303030) !important;
+.connectedAccountNameContainer-3e9mvO path {
+  d: path("M 20.396 11 c -0.018 -0.646 -0.215 -1.275 -0.57 -1.816 c -0.354 -0.54 -0.852 -0.972 -1.438 -1.246 c 0.223 -0.607 0.27 -1.264 0.14 -1.897 c -0.131 -0.634 -0.437 -1.218 -0.882 -1.687 c -0.47 -0.445 -1.053 -0.75 -1.687 -0.882 c -0.633 -0.13 -1.29 -0.083 -1.897 0.14 c -0.273 -0.587 -0.704 -1.086 -1.245 -1.44 S 11.647 1.62 11 1.604 c -0.646 0.017 -1.273 0.213 -1.813 0.568 s -0.969 0.854 -1.24 1.44 c -0.608 -0.223 -1.267 -0.272 -1.902 -0.14 c -0.635 0.13 -1.22 0.436 -1.69 0.882 c -0.445 0.47 -0.749 1.055 -0.878 1.688 c -0.13 0.633 -0.08 1.29 0.144 1.896 c -0.587 0.274 -1.087 0.705 -1.443 1.245 c -0.356 0.54 -0.555 1.17 -0.574 1.817 c 0.02 0.647 0.218 1.276 0.574 1.817 c 0.356 0.54 0.856 0.972 1.443 1.245 c -0.224 0.606 -0.274 1.263 -0.144 1.896 c 0.13 0.634 0.433 1.218 0.877 1.688 c 0.47 0.443 1.054 0.747 1.687 0.878 c 0.633 0.132 1.29 0.084 1.897 -0.136 c 0.274 0.586 0.705 1.084 1.246 1.439 c 0.54 0.354 1.17 0.551 1.816 0.569 c 0.647 -0.016 1.276 -0.213 1.817 -0.567 s 0.972 -0.854 1.245 -1.44 c 0.604 0.239 1.266 0.296 1.903 0.164 c 0.636 -0.132 1.22 -0.447 1.68 -0.907 c 0.46 -0.46 0.776 -1.044 0.908 -1.681 s 0.075 -1.299 -0.165 -1.903 c 0.586 -0.274 1.084 -0.705 1.439 -1.246 c 0.354 -0.54 0.551 -1.17 0.569 -1.816 Z M 9.662 14.85 l -3.429 -3.428 l 1.293 -1.302 l 2.072 2.072 l 4.4 -4.794 l 1.347 1.246 Z");
+  transform: scale(0.75);
+  fill: rgb(29, 155, 240);
+}
+
+.connectedAccountNameContainer-3e9mvO svg {
+margin-top: -10% !important;
+}
+
+#DarkVibez-card .bd-addon-header path {
+  d: path("M 39 274 C 28.8575 274 19.2151 274 9.28709 274 C 9.28709 257.715 9.28709 241.645 9.28709 225 C 10.8089 225 12.4068 225 14.0046 225 C 40.6647 225 67.3266 225.164 93.9834 224.866 C 99.5341 224.804 105.175 223.432 110.581 221.956 C 118.875 219.69 123.595 213.457 123.846 205.255 C 124.607 180.364 125.135 155.447 124.823 130.551 C 124.638 115.71 116.444 108.078 102.381 107.014 C 96.8084 106.592 91.2272 106.202 85.6429 106.037 C 79.9909 105.87 74.3303 106 67.8473 106 C 67.8473 126.236 67.8473 146.37 67.8473 167.757 C 65.8161 166.039 64.8292 165.318 63.9746 164.465 C 47.82 148.337 31.9635 131.894 15.3702 116.231 C 10.2624 111.41 8.75364 106.649 8.89178 100.101 C 9.22536 84.29 9 68.4675 9 52.2431 C 10.5429 52.1578 11.9698 52.0107 13.3967 52.0101 C 42.7228 51.9967 72.0761 51.2201 101.367 52.2424 C 125.56 53.0868 148.102 60.0568 165.148 78.759 C 175.558 90.1798 182.041 103.483 182.01 119.388 C 181.969 140.382 182 161.376 182 183.598 C 183.692 181.793 185.217 180.857 185.709 179.536 C 191.252 164.632 196.486 149.61 202.156 134.756 C 203.863 130.284 207.035 126.384 208.876 121.949 C 211.248 116.234 212.743 110.159 214.993 104.387 C 220.543 90.146 226.344 76.0031 231.969 61.7907 C 233.838 57.0682 236.212 54.6367 242.221 54.7813 C 264.869 55.3261 287.538 55 311.404 55 C 309.498 59.9239 307.895 64.4892 305.983 68.9207 C 300.964 80.5499 295.843 92.1353 290.702 103.711 C 285.066 116.398 279.376 129.062 273.683 141.723 C 269.472 151.087 265.345 160.492 260.946 169.768 C 256.807 178.497 252.045 186.94 248.118 195.759 C 240.213 213.51 232.706 231.438 225.001 249.279 C 221.633 257.078 218.27 264.882 214.678 272.578 C 214.159 273.69 212.37 274.893 211.163 274.899 C 184.337 275.031 157.51 275.031 130.684 274.99 C 110.343 274.959 90.0011 274.903 69.6609 274.726 C 59.6059 274.638 49.5536 274.251 39 274 Z");
+  opacity: 1;
+  fill: #ffffff;
+  stroke: none;
+  transform: scale(0.075);
+}
+
+.header-13P3fr {
+  background: none !important;
+}
+
+.header-13P3fr .icon-1zKOXL {
+  border-radius: 16px !important;
+}
+
+.channel-k2TVLQ {
   border-radius: 12px !important;
+  background: #ffffff10;
+}
+
+.channelContainer-3YAhb_ {
+  background: none !important;
+}
+
+.popout-VbwYm1 {
+  border-radius: 12px !important;
+  background: #ffffff10 !important;
+  backdrop-filter: blur(5px) !important;
+  border: 1px solid #ffffff15 !important;
+}
+
+.popoutHeaderContainer-jNJXpP {
+  background: #ffffff10 !important;
+}
+
+.container-q2_DnH.isOpen-2Gyel_ {
+  background: #ffffff40 !important;
+}
+
+.verifiedRole-2nWDpa {
+  background: #ffffff10;
+  border: none !important;
+  transition: ease-in-out 0.1s;
+}
+
+.verifiedRole-2nWDpa:hover {
+  background: #ffffff15;
+  transition: ease-in-out 0.1s;
+}
+
+.container-20TyK0 {
+  background: #ffffff10 !important;
+  border-radius: 12px !important;
+  border: 1px solid #ffffff15 !important;
+  backdrop-filter: blur(5px);
 }
 
 /*Buttons*/
@@ -5280,19 +5465,21 @@ canvas.decorationsOverviewRuler {
 }
 
 .checked-16gMAN {
-  background: #72ff14 !important;
+  background: var(--color-scheme) !important;
 }
 
 .checked-16gMAN .slider-HJFN2i {
-  margin-left: 10% !important;
+  margin-left: 5px !important;
+  margin-top: 1.3px !important;
 }
 
 .slider-HJFN2i {
   background: #ffffff !important;
-  width: 60% !important;
-  height: 100% !important;
+  width: 21.5px !important;
+  height: 21.5px !important;
   border-radius: 50% !important;
-  margin-top: 0.1% !important;
+  margin-top: 1.4px;
+  margin-left: 5px;
 }
 
 .slider-HJFN2i svg {
@@ -5492,10 +5679,8 @@ canvas.decorationsOverviewRuler {
 
 .wordmarkWindows-2dq6rw g {
   transform: translateY(3px);
-  color: var(--color-scheme);
+  color: var(--color-scheme) !important;
 }
-
-
 
 .subtitle-3m-md1, .title-1_TkpU {
   color: var(--color-scheme);
