@@ -1,8 +1,8 @@
-"PurpleMidnight" by Vanity (v1.0.1)
-For DarkVibez with CFGID 1.1
+"PurpleMidnight" by Vanity (v1.1)
+For DarkVibez with CFGID 1.2
 
 
-/* Config ("PurpleMidnight" by Vanity | CFGID: 1.1) */
+/* Config ("PurpleMidnight" by Vanity | CFGID: 1.2) */
 --bg-main-1: linear-gradient(to top right, #1f0033, #000000); 
 --bg-main-2: linear-gradient(to top right, #1f0033, #000000); 
 --bg-main-3: #3c0e63; 
@@ -22,6 +22,7 @@ For DarkVibez with CFGID 1.1
 --dividercolor: #ffffff18;
 --settings-card-bg: #1b1b1b;
 --settings-card-border: #242424;
+--dropdown-menu-bg: #2c0a49;
 
 --wallpaper-bg: #ffffff10;
 --wallpaper-bg-2: transparent;

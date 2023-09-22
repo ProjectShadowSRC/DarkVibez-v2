@@ -1,8 +1,8 @@
-"BasicBG-Dark" by Vanity (v1.1.1)
-For DarkVibez with CFGID 1.1
+"BasicBG-Dark" by Vanity (v1.2)
+For DarkVibez with CFGID 1.2
 
 
-/* Config ("BasicBG-Dark" by Vanity | CFGID: 1.1) */
+/* Config ("BasicBG-Dark" by Vanity | CFGID: 1.2) */
 --bg-main-1: #000000; 
 --bg-main-2: linear-gradient(to top right, #111111, #303030); 
 --bg-main-3: #00000054; 
@@ -24,6 +24,7 @@ For DarkVibez with CFGID 1.1
 --dividercolor: #00000027;
 --settings-card-bg: #00000065;
 --settings-card-border: #00000049;
+--dropdown-menu-bg: #1b1b1b;
 
 --wallpaper: url("https://cdn.discordapp.com/attachments/877247075375521913/1117113003528179722/DarkVibezBG-Light.png");
 --wallpaper-bg: #0000003a;

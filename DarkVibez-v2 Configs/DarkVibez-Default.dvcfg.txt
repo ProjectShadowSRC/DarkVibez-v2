@@ -1,8 +1,8 @@
 The default DarkVibez v2 config
-For DarkVibez with CFGID 1.1
+For DarkVibez with CFGID 1.2
 
 
-/* Config (Default | CFGID: 1.1) */
+/* Config (Default | CFGID: 1.2) */
 --bg-main-1: #000000; 
 --bg-main-2: linear-gradient(to top right, #111111, #303030); 
 --bg-main-3: #ffffff21; 
@@ -22,3 +22,4 @@ For DarkVibez with CFGID 1.1
 --dividercolor: #ffffff18;
 --settings-card-bg: #1b1b1b;
 --settings-card-border: #242424;
+--dropdown-menu-bg: #151515;
