@@ -2,7 +2,7 @@
  * @name DarkVibez
  * @author Vanity
  * @authorLink https://x.com/VanitySoftware
- * @version 2.3.1
+ * @version 2.3.2
  * @description A dark, modern and OLED optimized theme. Customizable with Presets or your own configs!
  * @source https://github.com/VanitySoftware/DarkVibez-v2
  * @website https://github.com/VanitySoftware
@@ -40,7 +40,7 @@
   --background-primary: var(--btn-selected);
   --background-secondary: var(--bg-main-1);
   --elevation-low: none;
-  --buildinfo: "VanitySoftware/DarkVibez 2.3 | CFGID: 1.2";
+  --buildinfo: "VanitySoftware/DarkVibez 2.3.2 | CFGID: 1.2";
 }
 
 /* Don't touch! These are fixes for some buggy objects */
@@ -4789,6 +4789,55 @@ margin-top: -10% !important;
 
 button.button-12Fmur {
   border-radius: 500px !important;
+}
+
+.autocompleteShadow-2nfsSy {
+  display: none;
+}
+
+.autocompleteArrow-jJE9TQ {
+  display: none !important;
+}
+
+.container-1S70rv .header-3i_Csh {
+  margin-left: 11px !important;
+  border-radius: 12px 12px 0 0 !important;
+  background: var(--dropdown-menu-bg) !important;
+  border: 1px solid #ffffff10;
+}
+
+.container-1S70rv .headerText-27z-EV {
+  text-transform: none !important;
+  font-size: 115%;
+}
+
+.container-1S70rv .input-2lpFVz {
+  display: none;
+}
+
+.container-1S70rv .sectionTag-28mLyE {
+  margin-left: 11px !important;
+  border-radius: 0 0 12px 12px !important;
+  background: var(--dropdown-menu-bg) !important;
+  border: 1px solid #ffffff10;
+  border-top: none !important;
+}
+
+.section-3PvCGN {
+  text-transform: none !important;
+  font-size: 90%;
+}
+
+.rowInner-3uonq8 {
+  border-radius: 9px !important;
+}
+
+.rowInner-3uonq8:hover {
+  background: #ffffff00;
+}
+
+.row-1Ib2uD.selected-1IWCoj .rowInner-3uonq8 {
+  background: #ffffff10;
 }
 
 /*Buttons*/
