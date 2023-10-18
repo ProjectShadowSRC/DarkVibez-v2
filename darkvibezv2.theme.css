@@ -443,7 +443,7 @@
   border-radius: 8px;
 }
 
-.winButtonClose-3Q8ZH5 {
+.winButtonClose-23zAIt {
   width: 35px;
   margin-right: 5px;
   margin-left: 1px;
@@ -452,19 +452,19 @@
   transition: ease-in-out 0.1s;
 }
 
-.winButtonClose-3Q8ZH5:hover {
+.winButtonClose-23zAIt:hover {
   background: var(--color-scheme);
   transition: ease-in-out 0.1s;
 }
 
-.winButtonMinMax-3RsPUg {
+.winButtonMinMax-nT2Irc {
   width: 35px;
   margin-right: 2.5px;
   border-radius: 5px;
   transition: ease-in-out 0.1s;
 }
 
-.winButtonMinMax-3RsPUg:hover {
+.winButtonMinMax-nT2Irc:hover {
   background: #ffffff27;
   transition: ease-in-out 0.1s;
 }
